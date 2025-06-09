@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+       xmlns:views="clr-namespace:DishLaundry.Views"
+       xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+       x:Class="DishLaundry.AppShell">
+    <TabBar>
+        <ShellContent Title="Home" ContentTemplate="{DataTemplate views:HomePage}" />
+        <ShellContent Title="Matches" ContentTemplate="{DataTemplate views:MatchesPage}" />
+        <ShellContent Title="Profile" ContentTemplate="{DataTemplate views:ProfilePage}" />
+    </TabBar>
+</Shell>
